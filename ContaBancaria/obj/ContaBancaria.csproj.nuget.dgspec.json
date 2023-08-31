@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {}
+    "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\Projeto-ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {
+    "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\Projeto-ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+        "projectUniqueName": "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\Projeto-ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
         "projectName": "ContaBancaria",
-        "projectPath": "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+        "projectPath": "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\Projeto-ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
         "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\ContaBancaria\\ContaBancaria\\obj\\",
+        "outputPath": "C:\\Users\\joaop\\Desktop\\Bootcamp-DotNet\\Projeto-ContaBancaria\\ContaBancaria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaop\\AppData\\Roaming\\NuGet\\NuGet.Config",
