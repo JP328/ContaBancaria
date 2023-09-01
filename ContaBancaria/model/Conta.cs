@@ -23,6 +23,8 @@ namespace ContaBancaria.model
             this.saldo = saldo;
         }
 
+        public Conta() { }
+
         /*Métodos Get e Set*/
         public int GetNumero()
         {
@@ -74,7 +76,7 @@ namespace ContaBancaria.model
             this.saldo = saldo;
         }
 
-        public bool Sacar(decimal valor) 
+        public virtual bool Sacar(decimal valor) 
         {
             if(this.saldo < valor)
             {
@@ -91,14 +93,14 @@ namespace ContaBancaria.model
             this.SetSaldo(this.saldo + valor);
         }
 
-        public void Visualizar()
+        public virtual void Visualizar()
         {
             string tipo = string.Empty;
 
             switch(this.tipo) 
             {
                 case 1:
-                    tipo= "Conta Corrente";
+                    tipo = "Conta Corrente";
                     break;
                 case 2:
                     tipo = "Conta Poupança";
@@ -110,10 +112,10 @@ namespace ContaBancaria.model
             Console.WriteLine("****************************************************");
             Console.WriteLine($"Número da Conta: {this.numero}");
             Console.WriteLine($"Número da Agência: {this.agencia}");
-            Console.WriteLine($"Tipo da Conta: {this.tipo}");
+            Console.WriteLine($"Tipo da Conta: {tipo}");
             Console.WriteLine($"Titular da Conta: {titular}");
             Console.WriteLine($"Saldo Conta: {(this.saldo).ToString("C")}"); 
-            Console.WriteLine("****************************************************");
+            //Console.WriteLine("****************************************************");
         }
     }
 }
