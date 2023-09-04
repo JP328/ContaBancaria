@@ -10,7 +10,6 @@ namespace ContaBancaria
         {
             int option;
 
-            Conta c1 = new Conta(1 , 123, 1, "Gaspar", 1000000.00M);
             ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "Gaspar", 1000000M, 1000M);
             Poupanca cp1 = new Poupanca(1, 123, 2, "Gaspar", 1000000M, 18);
 
@@ -20,11 +19,6 @@ namespace ContaBancaria
             //cc1.Sacar(2000000);
             //cc1.Depositar(5000);
             //cc1.Visualizar();
-
-            //c1.Sacar(1000);
-            c1.Visualizar();
-            //c1.Depositar(5000);
-            //c1.Visualizar();
 
             while (true) 
             {
