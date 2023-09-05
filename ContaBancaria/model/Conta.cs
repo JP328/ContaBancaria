@@ -114,7 +114,7 @@ namespace ContaBancaria.model
             Console.WriteLine($"Número da Agência: {this.agencia}");
             Console.WriteLine($"Tipo da Conta: {tipo}");
             Console.WriteLine($"Titular da Conta: {titular}");
-            Console.WriteLine($"Saldo Conta: {(this.saldo).ToString("C")}"); 
+            Console.WriteLine($"Saldo Conta: {saldo.ToString("C")}"); 
             //Console.WriteLine("****************************************************");
         }
     }
