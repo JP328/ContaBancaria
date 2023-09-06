@@ -12,3 +12,17 @@ C:\Users\joaop\Desktop\Bootcamp-DotNet\ContaBancaria\ContaBancaria\obj\Debug\net
 C:\Users\joaop\Desktop\Bootcamp-DotNet\ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.pdb
 C:\Users\joaop\Desktop\Bootcamp-DotNet\ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.genruntimeconfig.cache
 C:\Users\joaop\Desktop\Bootcamp-DotNet\ContaBancaria\ContaBancaria\obj\Debug\net7.0\ref\ContaBancaria.dll
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.AssemblyInfoInputs.cache
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.AssemblyInfo.cs
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.csproj.CoreCompileInputs.cache
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.dll
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\refint\ContaBancaria.dll
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.pdb
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\bin\Debug\net7.0\ContaBancaria.exe
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\bin\Debug\net7.0\ContaBancaria.deps.json
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\bin\Debug\net7.0\ContaBancaria.runtimeconfig.json
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\bin\Debug\net7.0\ContaBancaria.dll
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\bin\Debug\net7.0\ContaBancaria.pdb
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ContaBancaria.genruntimeconfig.cache
+C:\Users\joaop\Desktop\Bootcamp-DotNet\Projeto-ContaBancaria\ContaBancaria\obj\Debug\net7.0\ref\ContaBancaria.dll
