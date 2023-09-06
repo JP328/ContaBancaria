@@ -9,9 +9,9 @@ namespace ContaBancaria
 
         static void Main(string[] args)
         {
-            int option, agencia, tipo, aniversario, numero;
+            int option, agencia, tipo, aniversario, numero, numeroDestino;
             string? titular;
-            decimal saldo, limite;
+            decimal saldo, limite, valor;
 
 
             ContaController contas = new();
@@ -181,18 +181,47 @@ namespace ContaBancaria
                         KeyPress();
                         break;
                     case 6:
-                        Console.WriteLine("Saque\n\n");
+                        Console.WriteLine("Saque\n");
+
+                        Console.WriteLine("Digite o número da conta: ");
+                        numero = Convert.ToInt32(Console.ReadLine());
+
+
+                        Console.WriteLine("Digite o valor do Saque:");
+                        valor = Convert.ToDecimal(Console.ReadLine());
+
+                        contas.Sacar(numero, valor);
 
                         KeyPress();
                         break;
                     case 7:
-                        Console.WriteLine("Déposito\n\n");
+                        Console.WriteLine("Déposito\n");
+
+                        Console.WriteLine("Digite o número da conta: ");
+                        numero = Convert.ToInt32(Console.ReadLine());
+
+
+                        Console.WriteLine("Digite o valor do Depósito:");
+                        valor = Convert.ToDecimal(Console.ReadLine());
+
+                        contas.Depositar(numero, valor);
 
                         KeyPress();
                         break;
                     case 8:
-                        Console.WriteLine("Tranferência entre Contas\n\n");
-                    
+                        Console.WriteLine("Tranferência entre Contas\n");
+
+                        Console.WriteLine("Digite o número da conta: ");
+                        numero = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Digite o número da conta de destino: ");
+                        numeroDestino = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Digite o valor da Transferência:");
+                        valor = Convert.ToDecimal(Console.ReadLine());
+
+                        contas.Transferir(numero, numeroDestino, valor);
+
                         KeyPress();
                         break;
                     default:
