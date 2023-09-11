@@ -36,7 +36,8 @@ namespace ContaBancaria
                 Console.WriteLine("                  6 - Sacar");
                 Console.WriteLine("                  7 - Depositar");
                 Console.WriteLine("                  8 - Transferir valores entre Contas");
-                Console.WriteLine("                  9 - Sair\n");
+                Console.WriteLine("                  9 - Consulta por titular");
+                Console.WriteLine("                  10 - Sair\n");
                 Console.WriteLine("*******************************************************************************");
                 Console.WriteLine("Entre com a opção desejada:\n");
 
@@ -52,7 +53,7 @@ namespace ContaBancaria
                 }
 
 
-                if (option == 9) 
+                if (option == 10) 
                 {
                     Console.WriteLine("\nBanco do Brasil com Z - O seu futuro está aqui!");
                     Sobre();
@@ -221,6 +222,18 @@ namespace ContaBancaria
                         valor = Convert.ToDecimal(Console.ReadLine());
 
                         contas.Transferir(numero, numeroDestino, valor);
+
+                        KeyPress();
+                        break;
+                    case 9:
+                        Console.WriteLine("Consulta por titular\n");
+                        
+                        Console.WriteLine("Digite o nome do titular: ");
+                        titular = Console.ReadLine();
+                        titular ??= string.Empty;
+
+                        Console.WriteLine(true || false);
+                        contas.ListarTodasPorTitular(titular);
 
                         KeyPress();
                         break;

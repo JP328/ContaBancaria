@@ -151,5 +151,14 @@ namespace ContaBancaria.Controller
 
             return null;
         }
+
+        public void ListarTodasPorTitular(string titular)
+        {
+            var contasPorTitular = from conta in listaContas
+                                   where conta.GetTitular().Contains(titular)
+                                   select conta;
+
+            contasPorTitular.ToList().ForEach(c => c.Visualizar());
+        }
     }
 }
